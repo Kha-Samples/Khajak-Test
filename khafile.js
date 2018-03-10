@@ -1,7 +1,7 @@
-var project = new Project('KhajakTest');
+let project = new Project('KhajakTest');
 project.addLibrary('Khajak');
 project.addLibrary('haxebullet');
 project.addAssets('Assets/**');
 project.addSources('Sources');
 project.addShaders('Libraries/Khajak/Sources/khajak/Shaders/**');
-return project;
+resolve(project);
